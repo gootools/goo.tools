@@ -76,6 +76,10 @@ footer {
   text-transform: uppercase;
   white-space: nowrap;
 }
+a,
+footer {
+  font-family: Inter !important;
+}
 
 footer img {
   margin: 0 10px;
