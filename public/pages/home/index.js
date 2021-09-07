@@ -36,10 +36,10 @@ const Notification = ({
       style={{
         // marginLeft: x === 0 ? 'auto' : x * 40,
         // top: y
-        transform: `translate(${Math.max(-330, x * 2)}px, ${Math.max(
-          -170,
-          y
-        )}px)`,
+        transform: `translate(${Math.min(
+          315,
+          Math.max(-320, x * 2)
+        )}px, ${Math.max(-170, y)}px)`,
       }}
     >
       <header>
