@@ -76,21 +76,21 @@ const Notifications = () => {
     {
       app: "PsyOptions",
       title: "Your Option will expire in 3 days",
-      body: "Remember to trade or exercise your 45,000 USDC/BTC Call before Saturday",
+      body: "Remember to trade or exercise your 45,000 USDC/BTC Call before Saturday.",
       icon: "psyoptions.png",
       img: "btc.png",
     },
     {
       app: "Metaplex",
       title: "You've been outbid on an NFT",
-      body: "Aurorian #9990 is now 999 SOL. 2 SOL higher than your bid. Ends in 20 minutes",
+      body: "Aurorian #9990 is now 999 SOL. 2 SOL higher than your bid. Ends in 20 minutes.",
       icon: "metaplex.png",
       img: "aurory.png",
     },
     {
       app: "Serum",
       title: "Your MNGO-USDC order was filled",
-      body: "You bought 1024 MNGO at 0.46 USDC, totalling 471.04 USDC",
+      body: "You bought 1024 MNGO at 0.46 USDC, totalling 471.04 USDC.",
       icon: "serum.png",
       img: "mango.svg",
     },
@@ -104,14 +104,14 @@ const Notifications = () => {
     {
       app: "Note",
       title: "Airdrop alert!",
-      body: "You received 420.69 ORCA in your wallet",
+      body: "You received 420.69 ORCA in your wallet.",
       icon: "note.png",
       img: "orca.png",
     },
     {
       app: "Wormhole",
       title: "Ethereum Deposit received",
-      body: "2.1 wrapped ETH is now in your wallet",
+      body: "2.1 wrapped ETH is now in your wallet.",
       icon: "wormhole.png",
       img: "ethereum.png",
     },
@@ -151,7 +151,7 @@ export default function Home() {
       </header>
       <main>
         <div className="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 pb-15 md:pb-0 hero">
-          <h2 className="text-center text-5xl font-bold text-white md:text-6xl heading">
+          <h2 className="text-center text-4xl sm:text-5xl font-bold text-white md:text-6xl heading">
             Web3 push notifications are almost here
           </h2>
           <p className="mt-6 max-w-md mx-auto font-extralight text-center text-xl text-white subheading">
