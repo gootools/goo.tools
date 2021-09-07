@@ -43,15 +43,12 @@ const Notification = ({
       }}
     >
       <header>
-        <img className="img" src={`./assets/icons/${icon}?${Math.random()}`} />
+        <img className="img" src={`./assets/icons/${icon}`} />
         <span className="app">{app}</span>
         <span className="time-ago">{timeAgo}</span>
       </header>
       {isBig && img && (
-        <div
-          className="bigimg"
-          style={{ backgroundImage: `url(${img}?${Math.random()})` }}
-        />
+        <div className="bigimg" style={{ backgroundImage: `url(${img})` }} />
       )}
       <div className="main">
         <div className="text">
@@ -59,10 +56,7 @@ const Notification = ({
           <span className="body">{body}</span>
         </div>
         {!isBig && img && (
-          <img
-            src={`./assets/images/${img}?${Math.random()}`}
-            className="image"
-          />
+          <img src={`./assets/images/${img}`} className="image" />
         )}
       </div>
     </div>
