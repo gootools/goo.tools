@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background: #121723 !important;
+}
+
+.hero .heading {
+  animation: fadeIn 0.8s;
+}
+
+.hero .subheading {
+  animation: fadeIn 1.5s;
+  font-family: Inter !important;
+  font-weight: normal !important;
+  line-height: 1.5;
+}
+
+.improve {
+  animation: fadeIn 6.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #34fca1;
+}
+
+::selection {
+  color: black;
+  background: #34fca1;
+  border-radius: 4px;
+}
+
+h2 {
+  font-family: "IBM Plex Mono" !important;
+}
+
+/* background */
+
+.bg {
+  position: fixed;
+  left: 50%;
+  z-index: -1;
+}
+
+.bg.aurory {
+  top: 490px;
+  margin-left: -440px;
+}
+
+.bg.ape {
+  top: 240px;
+  margin-left: 130px;
+}
+
+a > svg {
+  margin-left: 10px;
+}
+
+footer {
+  text-transform: uppercase;
+}
+
+footer img {
+  margin: 0 10px;
+}

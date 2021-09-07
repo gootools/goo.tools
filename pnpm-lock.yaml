@@ -1,0 +1,193 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@twind/wmr': ^1.0.9
+  d3-force: ^3.0.0
+  preact: ^10.5.14
+  preact-iso: ^2.1.0
+  preact-render-to-string: ^5.1.19
+  react-icons: ^4.2.0
+  twind: ^0.16.16
+  wmr: ^3.6.1
+
+dependencies:
+  '@twind/wmr': 1.0.9_b4a139d0e41a3c3e2b931a6c34f88234
+  d3-force: 3.0.0
+  preact: 10.5.14
+  preact-iso: 2.1.0_517d24bd855b57d7e424aceed04e063b
+  preact-render-to-string: 5.1.19_preact@10.5.14
+  react-icons: 4.2.0
+  twind: 0.16.16
+
+devDependencies:
+  wmr: 3.6.1
+
+packages:
+
+  /@twind/preact/1.0.5_preact@10.5.14+twind@0.16.16:
+    resolution: {integrity: sha512-VG4ja6EHOWUs0mVsKMfGobAC6C7NTJOVjirgQERXXqcbevlu1HU+vckNlBntlftq0c6LXHEpzwbghM3o42N/fw==}
+    engines: {node: '>=10.13'}
+    peerDependencies:
+      preact: ^10.5.12
+      twind: '>=0.15.9 <2'
+      typescript: ^4.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      preact: 10.5.14
+      twind: 0.16.16
+    dev: false
+
+  /@twind/wmr/1.0.9_b4a139d0e41a3c3e2b931a6c34f88234:
+    resolution: {integrity: sha512-+qcx4r6KZnC/DsFIYe9iwAmuWjX5pFjN0pWxMlwFFgJJtxBsKG3xXOfo1urA2T2YCjTWoGebTqpQQhi19so6EQ==}
+    engines: {node: '>=10.13'}
+    peerDependencies:
+      preact: ^10.5.12
+      preact-iso: '>=1.0.0 <3'
+      twind: '>=0.15.9 <2'
+      typescript: ^4.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@twind/preact': 1.0.5_preact@10.5.14+twind@0.16.16
+      preact: 10.5.14
+      preact-iso: 2.1.0_517d24bd855b57d7e424aceed04e063b
+      twind: 0.16.16
+    dev: false
+
+  /csstype/3.0.8:
+    resolution: {integrity: sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==}
+    dev: false
+
+  /d3-dispatch/3.0.1:
+    resolution: {integrity: sha512-rzUyPU/S7rwUflMyLc1ETDeBj0NRuHKKAcvukozwhshr6g6c5d8zh4c2gQjY2bZ0dXeGLWc1PF174P2tVvKhfg==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /d3-force/3.0.0:
+    resolution: {integrity: sha512-zxV/SsA+U4yte8051P4ECydjD/S+qeYtnaIyAs9tgHCqfguma/aAQDjo85A9Z6EKhBirHRJHXIgJUlffT4wdLg==}
+    engines: {node: '>=12'}
+    dependencies:
+      d3-dispatch: 3.0.1
+      d3-quadtree: 3.0.1
+      d3-timer: 3.0.1
+    dev: false
+
+  /d3-quadtree/3.0.1:
+    resolution: {integrity: sha512-04xDrxQTDTCFwP5H6hRhsRcb9xxv2RzkcsygFzmkSIOJy3PeRJP7sNk3VRIbKXcog561P9oU0/rVH6vDROAgUw==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /d3-timer/3.0.1:
+    resolution: {integrity: sha512-ndfJ/JxxMd3nw31uyKoY2naivF+r29V+Lc0svZxe1JvvIRmi8hUsrMvdOwgS1o6uBHmiz91geQ0ylPP0aj1VUA==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /dom-serializer/1.3.2:
+    resolution: {integrity: sha512-5c54Bk5Dw4qAxNOI1pFEizPSjVsx5+bpJKmL2kPn8JhBUq2q09tTCa3mjijun2NfK78NMouDYNMBkOrPZiS+ig==}
+    dependencies:
+      domelementtype: 2.2.0
+      domhandler: 4.2.2
+      entities: 2.2.0
+    dev: false
+
+  /domelementtype/2.2.0:
+    resolution: {integrity: sha512-DtBMo82pv1dFtUmHyr48beiuq792Sxohr+8Hm9zoxklYPfa6n0Z3Byjj2IV7bmr2IyqClnqEQhfgHJJ5QF0R5A==}
+    dev: false
+
+  /domhandler/4.2.2:
+    resolution: {integrity: sha512-PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==}
+    engines: {node: '>= 4'}
+    dependencies:
+      domelementtype: 2.2.0
+    dev: false
+
+  /domutils/2.8.0:
+    resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==}
+    dependencies:
+      dom-serializer: 1.3.2
+      domelementtype: 2.2.0
+      domhandler: 4.2.2
+    dev: false
+
+  /entities/2.2.0:
+    resolution: {integrity: sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==}
+    dev: false
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /htmlparser2/6.1.0:
+    resolution: {integrity: sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A==}
+    dependencies:
+      domelementtype: 2.2.0
+      domhandler: 4.2.2
+      domutils: 2.8.0
+      entities: 2.2.0
+    dev: false
+
+  /preact-iso/2.1.0_517d24bd855b57d7e424aceed04e063b:
+    resolution: {integrity: sha512-Pr301RPZ/yML7KfSB1C1t8rrLhHCVDxFL6K8BMravCnQ9FNfXchXdvNRZRYFZUqA+MpC/r6RoNBJNwL2QOTkRw==}
+    peerDependencies:
+      preact: '>=10'
+      preact-render-to-string: '>=5'
+    dependencies:
+      preact: 10.5.14
+      preact-render-to-string: 5.1.19_preact@10.5.14
+    dev: false
+
+  /preact-render-to-string/5.1.19_preact@10.5.14:
+    resolution: {integrity: sha512-bj8sn/oytIKO6RtOGSS/1+5CrQyRSC99eLUnEVbqUa6MzJX5dYh7wu9bmT0d6lm/Vea21k9KhCQwvr2sYN3rrQ==}
+    peerDependencies:
+      preact: '>=10'
+    dependencies:
+      preact: 10.5.14
+      pretty-format: 3.8.0
+    dev: false
+
+  /preact/10.5.14:
+    resolution: {integrity: sha512-KojoltCrshZ099ksUZ2OQKfbH66uquFoxHSbnwKbTJHeQNvx42EmC7wQVWNuDt6vC5s3nudRHFtKbpY4ijKlaQ==}
+    dev: false
+
+  /pretty-format/3.8.0:
+    resolution: {integrity: sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U=}
+    dev: false
+
+  /react-icons/4.2.0:
+    resolution: {integrity: sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==}
+    peerDependencies:
+      react: '*'
+    dev: false
+
+  /style-vendorizer/2.1.1:
+    resolution: {integrity: sha512-gVO6Cwxtg8iX0X1W4xMhSc5WbQpiIBQDkhq3JkwebMRRgyhCfuvMrnPlTAGTRjfQPGRmzgjCOZ4drehTnLahHA==}
+    dev: false
+
+  /twind/0.16.16:
+    resolution: {integrity: sha512-UlAYjkGCdgjg4xU1SIwRW0PpG0anZrY32+kS2jYsi32yb4RuW0ttzaI1OglgwAUk/rZwzoINilnIFORzOSFZag==}
+    engines: {node: '>=10.13'}
+    peerDependencies:
+      typescript: ^4.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      csstype: 3.0.8
+      htmlparser2: 6.1.0
+      style-vendorizer: 2.1.1
+    dev: false
+
+  /wmr/3.6.1:
+    resolution: {integrity: sha512-yRaTAGUJdnNSJu5NzRJtGjwHRzr9mi26NWXZvptjumCawyd9B+X2lBr2DqaqF83oGIEK62a6hyKKPbnwu9vhaw==}
+    engines: {node: '>=12.17.x'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
