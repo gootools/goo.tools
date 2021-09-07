@@ -147,7 +147,7 @@ export default function Home() {
   return (
     <div className="text-white h-screen">
       <header className="p-10">
-        <img src="./assets/goo.svg" alt="Goo" />
+        <img src="./assets/goo.svg" alt="Goo" className="mx-auto sm:mx-0" />
       </header>
       <main>
         <div className="max-w-4xl mx-auto px-4 py-6 sm:px-6 lg:px-8 pb-15 md:pb-0 hero">
@@ -190,7 +190,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="mt-20 justify-center items-center flex flex-col md:space-x-20 md:flex-row text-gray-400">
+      <footer className="mt-20 justify-center items-center flex flex-col sm:space-x-20 sm:flex-row text-gray-400">
         <div className="inline-flex items-center mb-10">
           <img src="./assets/goo.svg" style={{ height: 30 }} />
           sticks things together

@@ -64,8 +64,8 @@ h2 {
 }
 
 .bg.ape {
-  top: 240px;
-  margin-left: 130px;
+  top: 200px;
+  margin-left: 120px;
 }
 
 a > svg {
@@ -74,6 +74,7 @@ a > svg {
 
 footer {
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 footer img {
