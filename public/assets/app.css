@@ -7,7 +7,8 @@ body {
   background: #121723 !important;
 }
 
-.hero .heading {
+.hero .heading,
+footer {
   animation: fadeIn 0.8s;
 }
 
